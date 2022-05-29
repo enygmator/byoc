@@ -71,6 +71,8 @@ fi
 
 #export RIVIERA_HOME=
 
+export ICARUS_HOME=/usr
+
 # New variables (fixed or based on $DV_ROOT)
 
 export TRE_ENTRY=/
