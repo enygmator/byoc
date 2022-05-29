@@ -96,7 +96,10 @@
 #define BX_SUPPORT_FLOPPY 1
 #define BX_FLOPPY_ON_CNT 37   /* 2 seconds */
 #define BX_PCIBIOS       1
-#define BX_APM           1
+
+//TODO: Had to disable BX_APM as it wouldn't compile otherwise
+#define BX_APM           0
+
 #define BX_PNPBIOS       1
 /* define it if the (emulated) hardware supports SMM mode */
 #define BX_USE_SMM

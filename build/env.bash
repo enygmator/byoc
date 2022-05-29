@@ -1,0 +1,2 @@
+export PITON_ROOT=$(realpath ../)
+source "$PITON_ROOT/piton/piton_settings.bash"
