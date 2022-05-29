@@ -5,7 +5,7 @@
 
 # Ignore everything in model directory
 build/*
-!build/.keep
+!build/.gitkeep
 
 # Ignore generated logs from back-end
 # Good for 10 levels of hierarchy

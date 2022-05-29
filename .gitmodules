@@ -3,7 +3,8 @@
 	url = https://github.com/pulp-platform/ariane.git
 [submodule "piton/design/chip/tile/ao486"]
 	path = piton/design/chip/tile/ao486
-	url = git@github.com:jbalkind/ao486_MiSTer.git
+	url = https://github.com/enygmator/ao486_MiSTer.git
+	branch = ao486_eny
 [submodule "aws"]
 	path = piton/design/aws
 	url = https://github.com/PrincetonUniversity/openpiton-aws.git
