@@ -8,4 +8,4 @@ $PITON_ROOT/piton/tools/bin/x86_as && \
     echo "failed to build"
 cd ..
 sims -sys=manycore -icv_build -ao486 -vcd && \
-sims -sys=manycore -icv_run -ao486 -vcd -rtl_timeout 1000000
+sims -sys=manycore -icv_run -ao486 -vcd -rtl_timeout 100000
