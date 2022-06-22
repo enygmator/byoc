@@ -1099,7 +1099,7 @@ if (TILE_TYPE == `AO486_TILE) begin : g_ao486_core
     wire                           transducer_ao486_io_waitrequest;
     wire [1:0]                     state_transducer;
     wire                           ao486_int;
-    wire [31:0]                    eip;
+    //wire [31:0]                    eip;
     wire [7:0]                     interrupt_vector;
     wire                           interrupt_do;
     wire                           interrupt_done;
